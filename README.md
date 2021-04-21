@@ -16,4 +16,4 @@ For my 2007 Jeep Grand Cherokee, it’s a weird situation that I don't think I u
 # Operation
 After installation, the system should search for RFID tags every 5 seconds, and if one is found it will compare it against the id of the known keys (my implant in this case or whatever else you set). If the id matches, it will trigger the relay connected to the unlock button of the car for half a second and then wait up to the specified time (default 30 seconds) for a start button mounted in the car to short the D12 pin to ground. If the timer runs out it will relock the car, if the button is pressed, it will start the car and wait for another press to shut it off and relock after another delay. 
 # Demo
-A video bench demonstration can be found in the project files as it is too big to upload here.
+A video bench demonstration can be found here: https://photos.app.goo.gl/Q5MuAbVF8RqJiTE8A as it is too big to upload here.
